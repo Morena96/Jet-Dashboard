@@ -1,1 +1,1 @@
-web:gunicorn Morena.wsgi
+web:gunicorn dokument.wsgi
