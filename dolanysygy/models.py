@@ -52,4 +52,3 @@ class File(models.Model):
         verbose_name_plural =("Faýl")
     def __str__(self):
         return self.ady
-
