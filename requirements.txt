@@ -1,5 +1,5 @@
 asgiref==3.2.3
-Django==3.0.1
+Django==2.2
 django-jet==1.0.8
 google-api-python-client==1.4.1
 httplib2==0.15.0
