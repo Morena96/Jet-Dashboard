@@ -3,6 +3,11 @@ from dolanysygy.models import *
 from django.contrib.auth import get_user_model
 from django.contrib.auth.admin import UserAdmin
 # Register your models here.
+
+admin.site.site_title = "Edara"
+admin.site.site_header = "DOKUMENT DOLANYŞYGY"
+admin.site.index_title = "Title"
+
 class WelayatlarAdmin(admin.ModelAdmin):
     pass
 

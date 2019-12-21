@@ -136,8 +136,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 JET_THEMES = [
     {
-        'theme': 'default', # theme folder name
-        'color': '#47bac1', # color of the theme's button in user menu
+        'theme': 'light-violet', # theme folder name
+        'color': '#a464c4', # color of the theme's button in user menu
         'title': 'Default' # theme title
     },
     {
@@ -151,8 +151,8 @@ JET_THEMES = [
         'title': 'Light Green'
     },
     {
-        'theme': 'light-violet',
-        'color': '#a464c4',
+        'theme': 'default',
+        'color':  '#47bac1',
         'title': 'Light Violet'
     },
     {
